@@ -1,0 +1,37 @@
+{
+  "name": "deelproject",
+  "version": "1.0.0",
+  "description": "Deel Automation Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodolfo Pacheco",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/cucumber": "^6.0.1",
+    "@types/cucumber-html-reporter": "^5.0.1",
+    "@types/node": "^14.18.12",
+    "blue-harvest": "^0.3.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-report-generator": "^1.0.10",
+    "cucumber-html-reporter": "^4.0.5",
+    "jasmine": "^3.5.0",
+    "jasminewd2": "^2.2.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "webdriver-manager": "^12.1.7"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@types/jasmine": "^3.6.2",
+    "config": "^3.3.7",
+    "generate-password": "^1.6.1",
+    "json": "^10.0.0"
+  }
+}

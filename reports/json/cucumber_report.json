@@ -1,0 +1,99 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Contracts",
+    "line": 1,
+    "id": "contracts",
+    "tags": [],
+    "uri": "Test\\features\\Contracts.feature",
+    "elements": [
+      {
+        "id": "contracts;create-a-fixed-contract",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Create a Fixed Contract",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Test\\hooks\\ScenarioHook.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I Login to Deel Page",
+            "match": {
+              "location": "Test\\steps\\LoginSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I Select Fixed Rate Contract Option",
+            "match": {
+              "location": "Test\\steps\\ContractsSteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I Add a Fix Contract",
+            "match": {
+              "location": "Test\\steps\\ContractsSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12881000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Test\\hooks\\ScenarioHook.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
